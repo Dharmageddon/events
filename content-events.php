@@ -10,7 +10,7 @@
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
-	<header class="entry-header"><h1><?php echo the_title(); ?></h1></header><!-- .entry-header -->
+  <header class="entry-header"><h1><?php echo the_title(); ?></h1></header><!-- .entry-header -->
 
   <hr>
 
