@@ -70,9 +70,9 @@
 
       <div class="entry-content"><?php the_content(); ?></div>
 
-      <hr><h3 align="center" style="color:#77043D;"><b>Register!</b></h3><hr>
+      <hr><h3 align="center" class="text-primary">Register!</h3><hr>
 
-      <?php echo do_shortcode('[contact-form-7 id="283" title="Events"]'); ?>
+      <?php echo do_shortcode('[contact-form-7 id="1" title="Events"]'); ?>
 
     </div>
 
