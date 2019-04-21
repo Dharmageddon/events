@@ -43,7 +43,7 @@ get_header();
 
 				$the_query = new WP_Query(array(
 					'post_type'			=> 'post',
-					'posts_per_page'	=> -1,
+					'posts_per_page'		=> -1,
 					'meta_key'			=> 'event_date',
 					'orderby'			=> 'meta_value',
 					'order'				=> 'ASC'
